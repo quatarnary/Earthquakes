@@ -40,7 +40,7 @@ extension Quakes {
             ToolbarStatus(
                 isLoading: isLoading,
                 lastUpdated: lastUpdated,
-                quakesCount = quakes.count
+                quakesCount: quakes.count
             )
             Spacer()
             if editMode == .active {
