@@ -24,6 +24,7 @@
 		4B588A492B43531200BB0013 /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588A482B43531200BB0013 /* RefreshButton.swift */; };
 		4B588A4B2B43531A00BB0013 /* ToolbarStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588A4A2B43531A00BB0013 /* ToolbarStatus.swift */; };
 		4B588A4D2B43532200BB0013 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588A4C2B43532200BB0013 /* DeleteButton.swift */; };
+		4BB9C6C22B44971E00337F43 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9C6C12B44971E00337F43 /* QuakeError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		4B588A482B43531200BB0013 /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
 		4B588A4A2B43531A00BB0013 /* ToolbarStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStatus.swift; sourceTree = "<group>"; };
 		4B588A4C2B43532200BB0013 /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
+		4BB9C6C12B44971E00337F43 /* QuakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			children = (
 				4B588A382B4352B600BB0013 /* Quake.swift */,
 				4B588A3A2B4352C600BB0013 /* Quake+Color.swift */,
+				4BB9C6C12B44971E00337F43 /* QuakeError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				4B588A472B43530A00BB0013 /* EditButton.swift in Sources */,
 				4B588A3D2B4352D600BB0013 /* Quakes.swift in Sources */,
 				4B588A4D2B43532200BB0013 /* DeleteButton.swift in Sources */,
+				4BB9C6C22B44971E00337F43 /* QuakeError.swift in Sources */,
 				4B588A3F2B4352E200BB0013 /* QuakeRow.swift in Sources */,
 				4B588A092B434D5100BB0013 /* EarthquakesApp.swift in Sources */,
 				4B588A432B4352F800BB0013 /* Quakes+Toolbar.swift in Sources */,
