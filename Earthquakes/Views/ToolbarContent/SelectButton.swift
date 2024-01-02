@@ -7,12 +7,43 @@
 
 import SwiftUI
 
+enum SelectMode {
+    case active, inactive
+    
+    var isActive: Bool {
+        self == .active
+    }
+    
+    mutating func toggle() {
+        switch self {
+        case .active:
+            self = .inactive
+        case .inactive:
+            self = .active
+        }
+    }
+}
+
 struct SelectButton: View {
+    @Binding var mode: SelectMode
+    var action: () -> Void = {}
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            withAnimation {
+                mode.toggle()
+                action()
+            }
+        } label: {
+            Text(mode.isActive ? "Deselect All" : "Select All")
+        }
     }
 }
 
 #Preview {
-    SelectButton()
+    Group {
+        SelectButton(mode: .constant(.active))
+        SelectButton(mode: .constant(.inactive))
+    }
+    .previewLayout(.sizeThatFits)
 }

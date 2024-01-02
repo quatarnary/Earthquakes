@@ -172,11 +172,11 @@
 			isa = PBXGroup;
 			children = (
 				4B588A422B4352F800BB0013 /* Quakes+Toolbar.swift */,
+				4B588A442B43530100BB0013 /* SelectButton.swift */,
 				4B588A462B43530A00BB0013 /* EditButton.swift */,
 				4B588A482B43531200BB0013 /* RefreshButton.swift */,
 				4B588A4A2B43531A00BB0013 /* ToolbarStatus.swift */,
 				4B588A4C2B43532200BB0013 /* DeleteButton.swift */,
-				4B588A442B43530100BB0013 /* SelectButton.swift */,
 			);
 			path = ToolbarContent;
 			sourceTree = "<group>";
