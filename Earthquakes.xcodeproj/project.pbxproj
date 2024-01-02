@@ -26,6 +26,7 @@
 		4BB9C6C42B44995C00337F43 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9C6C32B44995C00337F43 /* TestData.swift */; };
 		4BB9C6C62B449FF000337F43 /* EarthquakesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588A232B434D5700BB0013 /* EarthquakesUITests.swift */; };
 		4BB9C6C72B449FF300337F43 /* EarthquakesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588A252B434D5700BB0013 /* EarthquakesUITestsLaunchTests.swift */; };
+		4BB9C6CB2B44A3D500337F43 /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9C6CA2B44A3D500337F43 /* GeoJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		4BB9C6C52B449FE900337F43 /* just-logic.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "just-logic.xctestplan"; sourceTree = "<group>"; };
 		4BB9C6C82B44A01400337F43 /* just-ui.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "just-ui.xctestplan"; sourceTree = "<group>"; };
 		4BB9C6C92B44A02200337F43 /* all.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = all.xctestplan; sourceTree = "<group>"; };
+		4BB9C6CA2B44A3D500337F43 /* GeoJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				4B588A382B4352B600BB0013 /* Quake.swift */,
 				4B588A3A2B4352C600BB0013 /* Quake+Color.swift */,
 				4BB9C6C12B44971E00337F43 /* QuakeError.swift */,
+				4BB9C6CA2B44A3D500337F43 /* GeoJSON.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				4B588A452B43530100BB0013 /* SelectButton.swift in Sources */,
 				4B588A4B2B43531A00BB0013 /* ToolbarStatus.swift in Sources */,
 				4B588A3B2B4352C600BB0013 /* Quake+Color.swift in Sources */,
+				4BB9C6CB2B44A3D500337F43 /* GeoJSON.swift in Sources */,
 				4B588A492B43531200BB0013 /* RefreshButton.swift in Sources */,
 				4B588A412B4352EB00BB0013 /* QuakeMagnitude.swift in Sources */,
 				4B588A392B4352B600BB0013 /* Quake.swift in Sources */,
