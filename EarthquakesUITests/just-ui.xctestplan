@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "AEE2D5C2-2E92-4CAD-937C-6A2A45C63FC7",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Earthquakes.xcodeproj",
+        "identifier" : "4B588A1E2B434D5700BB0013",
+        "name" : "EarthquakesUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
