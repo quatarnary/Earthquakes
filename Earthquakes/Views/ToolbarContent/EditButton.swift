@@ -8,11 +8,35 @@
 import SwiftUI
 
 struct EditButton: View {
+    @Binding var editMode: EditMode
+    var action: () -> Void = {}
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            withAnimation {
+                if editMode == .active {
+                    action()
+                    editMode = .inactive
+                } else {
+                    editMode = .active
+                }
+            }
+        } label: {
+            if editMode == .active {
+                Text("Cancel").bold()
+            } else {
+                Text("Edit")
+            }
+        }
     }
 }
 
 #Preview {
-    EditButton()
+    Group {
+        EditButton(editMode: .constant(.inactive))
+            .previewLayout(.sizeThatFits)
+        EditButton(editMode: .constant(.active))
+            .previewLayout(.sizeThatFits)
+        EditButton(editMode: .constant(.transient))
+            .previewLayout(.sizeThatFits)
+    }
 }
