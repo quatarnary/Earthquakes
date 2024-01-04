@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "1CB4177E-A713-4310-B408-B8F3AEA1BB83",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Earthquakes.xcodeproj",
+        "identifier" : "4B588A142B434D5600BB0013",
+        "name" : "EarthquakesTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Earthquakes.xcodeproj",
+        "identifier" : "4B588A1E2B434D5700BB0013",
+        "name" : "EarthquakesUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
