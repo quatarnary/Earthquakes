@@ -29,7 +29,8 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:EarthquakesTests/just-logic.xctestplan">
+            reference = "container:EarthquakesTests/just-logic.xctestplan"
+            default = "YES">
          </TestPlanReference>
          <TestPlanReference
             reference = "container:EarthquakesUITests/just-ui.xctestplan">
