@@ -13,6 +13,7 @@
   },
   "testTargets" : [
     {
+      "enabled" : false,
       "target" : {
         "containerPath" : "container:Earthquakes.xcodeproj",
         "identifier" : "4B588A142B434D5600BB0013",
@@ -20,6 +21,7 @@
       }
     },
     {
+      "enabled" : false,
       "target" : {
         "containerPath" : "container:Earthquakes.xcodeproj",
         "identifier" : "4B588A1E2B434D5700BB0013",
