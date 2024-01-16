@@ -28,7 +28,7 @@ struct QuakeDetail: View {
         .task {
             if self.location  == nil {
                 if let quakeLocation = quake.location {
-                    self.location = quake.location
+                    self.location = quakeLocation
                 } else {
                     self.location = try? await quakesProvider.location(for: quake)
                 }
