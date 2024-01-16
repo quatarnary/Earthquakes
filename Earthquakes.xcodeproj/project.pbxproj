@@ -36,6 +36,7 @@
 		4BF526B22B496F5B00D3095E /* QuakesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF526B12B496F5B00D3095E /* QuakesProvider.swift */; };
 		684886782B51C314008B66B1 /* Quake+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684886772B51C314008B66B1 /* Quake+Preview.swift */; };
 		6848867A2B51C408008B66B1 /* QuakeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684886792B51C408008B66B1 /* QuakeDetail.swift */; };
+		6848867C2B56F607008B66B1 /* QuakeDetailMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6848867B2B56F607008B66B1 /* QuakeDetailMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		4BF526B12B496F5B00D3095E /* QuakesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakesProvider.swift; sourceTree = "<group>"; };
 		684886772B51C314008B66B1 /* Quake+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quake+Preview.swift"; sourceTree = "<group>"; };
 		684886792B51C408008B66B1 /* QuakeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeDetail.swift; sourceTree = "<group>"; };
+		6848867B2B56F607008B66B1 /* QuakeDetailMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeDetailMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 				4B588A402B4352EB00BB0013 /* QuakeMagnitude.swift */,
 				4B588A372B43527C00BB0013 /* ToolbarContent */,
 				684886792B51C408008B66B1 /* QuakeDetail.swift */,
+				6848867B2B56F607008B66B1 /* QuakeDetailMap.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				4B588A3B2B4352C600BB0013 /* Quake+Color.swift in Sources */,
 				4BB9C6CB2B44A3D500337F43 /* GeoJSON.swift in Sources */,
 				4B588A492B43531200BB0013 /* RefreshButton.swift in Sources */,
+				6848867C2B56F607008B66B1 /* QuakeDetailMap.swift in Sources */,
 				4B588A412B4352EB00BB0013 /* QuakeMagnitude.swift in Sources */,
 				4B588A392B4352B600BB0013 /* Quake.swift in Sources */,
 				4B14045B2B49ABC000CFA74F /* CacheEntryObject.swift in Sources */,
